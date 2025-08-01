@@ -24,16 +24,6 @@ const ProductCard = ({ product }) => {
         
         {/* Badges */}
         <div className="absolute top-2 left-2 space-y-1">
-          {product.isJustIn && (
-            <span className="inline-block px-2 py-1 text-xs font-medium text-white bg-red-600 rounded">
-              Just In
-            </span>
-          )}
-          {product.isNew && (
-            <span className="inline-block px-2 py-1 text-xs font-medium text-white bg-green-600 rounded">
-              New
-            </span>
-          )}
           {getDiscountPercentage() > 0 && (
             <span className="inline-block px-2 py-1 text-xs font-medium text-white bg-orange-600 rounded">
               {getDiscountPercentage()}% OFF
