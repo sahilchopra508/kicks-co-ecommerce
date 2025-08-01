@@ -56,15 +56,7 @@ e-commerce/
    npm install
    cd ..
    ```
-
-3. **Set up environment variables**
-   Create a `.env` file in the root directory:
-   ```
-   MONGODB_URI=mongodb://localhost:27017/ecommerce-shoes
-   PORT=5000
-   NODE_ENV=development
-   ```
-
+   
 4. **Start MongoDB**
    Make sure MongoDB is running on your system.
 
